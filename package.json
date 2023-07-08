@@ -1,0 +1,19 @@
+{
+  "name": "princeproject-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express.js": "^1.0.0",
+    "nodemon": "^1.14.9",
+    "stripe": "^12.11.0"
+  }
+}

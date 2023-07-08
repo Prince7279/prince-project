@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food</title>
+    <!-- Link to Css  -->
+    <link rel="stylesheet" href="/Css/cart.css">
+
+    <!-- Box-icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+
+    <!-- Navbar// -->
+    <header>
+        <!-- Nav  -->
+        <div class="nav container">
+            <!-- Logo  -->
+            <a href="" class="logo">Night-Craving</a>
+            <!-- cart icon  -->
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- Content  -->
+                <div class="cart-content">
+                    
+                </div>
+
+                <!-- total// -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy Button / -->
+                <button class="btn-buy" type="button">Pay Now</button>
+                <!-- close cart  -->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Foods -->
+    <section class="shop container">
+        <h2 class="section-title">Order Foods</h2>
+
+        <!-- Shop-content -->
+        <div class="shop-content">
+            <!-- Box-1  -->
+
+            <div class="product-box">
+                <!-- stripe Needs Images that are online -->
+
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXtFumKv0mS8FZi87bzqEmyQzW8rgZwZc8d2y-EJwk45YY9AB7vNjAh6VSLyQbbvJlhFrIQlqNwW7Zj0Zi2hLw2kXHcQZOtHiKqZuiR-yUAOoVIE7n30rm36tfZUXTyOemRkmP8r8Nyc8y2Ran8H3p_Hv2HgtzzutCrjyPrnIyqIBiuiUJKPhjHb-L9g63/s320/product1.jpeg" alt="" class="product-img">
+          
+            <h2 class="product-title">PIZZA</h2>
+            <span class="price">$50</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        
+        </div>
+         <!-- Box-2  -->
+
+         <div class="product-box">
+            <!-- stripe Needs Images that are online -->
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpkqlZr-xxTaSwb2IuZPIJmwArLuTdolxaLQFJIQqRH8tAw5dlKzZ5LfvCNk7n2oARlq-7AnaGaHhzL-Mf9_dzzlQHBuenfbPj7YeWvqf84E4WiYnompGuLQWB3qsre3m16-F0LXvLCO3Q0L7Ziw43JF22MWoxZNqImYp_0a1eqq0WwiDlYeKKvMYEIcGF/s320/sandwich%20menu-3_11zon.jpg" alt="" class="product-img">
+        
+        <h2 class="product-title">SANDWICH</h2>
+        <span class="price">$70.99</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+    
+    </div>
+
+
+     <!-- Box-3  -->
+
+     <div class="product-box">
+        <!-- stripe Needs Images that are online -->
+
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYMrGShaEA2SapJ-mOewpIXtHCzmgE1O3P0f_dC4mBjk_BUYRkhqMllUBoX3rM7DKsizlxfegZkh6D_uUGkP127ILMfsQKP-ZB1nD0kLAFaLYXbf919sYen0kUc4C3CqqHTgSim9B_seQ0pMsohVypHtkMoLUFoweHWv9DvOCr2jI-zzRMJd1P1ZJx69oi/s320/product3.jpeg" alt="" class="product-img">
+    
+    <h2 class="product-title">BAG</h2>
+    <span class="price">$90</span>
+    <i class='bx bx-shopping-bag add-cart'></i>
+
+</div>
+
+
+      <!-- Box-4 -->
+
+      <div class="product-box">
+        <!-- stripe Needs Images that are online -->
+
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsMVDF5_DbwMsfNq_PHqmN8YuJDCBgzc9LzpOk1EB6Nurhcqrzyz9J6TED8vqC8mdEgp-aTEqiftRMJ_Qa5n_VuHM937SrbEX16cXdBwvtz_XwMZtOIPQ-KdpqVBDo2TvEb4YCogZZzBJaugtr1IBsv1X86L1HXw1NjTtjHzPkca4Iyo-3y9MWpkH9wFcd/s320/product4.jpeg" alt="" class="product-img">
+ 
+    <h2 class="product-title">SHIRT</h2>
+    <span class="price">$78.22</span>
+    <i class='bx bx-shopping-bag add-cart'></i>
+
+</div>
+
+
+  <!-- Box-5  -->
+
+  <div class="product-box">
+    <!-- stripe Needs Images that are online -->
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc0Z6Yd8KXqY2kjLO2rCKJojnvY1aYT5LQow0l4gfV8OFynLDV97SIMEgG0-PiP3cIcoZZ4mJgqIq7Mwc-_F0VinLPAxY2WlU9KMS2KaQ0s23fyPyBTOqVzbE8x0wwXloHo2tzdzA8fRVJou3X4_ZHPDFsCwZr30JHvqKLO9zR0UhWLeRqp03Wkq1XxfPy/s320/product6.jpeg" alt="" class="product-img">
+
+<h2 class="product-title">BUDS</h2>
+<span class="price">$40</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+
+</div>
+
+
+ <!-- Box-6  -->
+
+ <div class="product-box">
+    <!-- stripe Needs Images that are online -->
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLSdtP1mOC2XSjJiRaFgBqUqcK3liyANCfjXogWvOiPNUIliEt9i39RPnv__VXCtXnKyR9pgL2LkC0Z864wfbajkbXiMdZSlndTKYzeGihsV1sMjEpxHLIJ5N1LuYs8k3JoObEBwMEDC6G5oAynbW367ApJiZdQnexZ-rDr_Jon1h8x8LO9QchyVvBS_26/s320/product7.jpeg" alt="" class="product-img">
+
+<h2 class="product-title">SHOES</h2>
+<span class="price">$67.86</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+
+<!-- Box-7  -->
+
+ <div class="product-box">
+    <!-- stripe Needs Images that are online -->
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-ZG6wEgs-CGnSz9nGhwi_xOBcZWsJaqxWKceXl7IdhP4UgZlzct-QHPlhY0cNKQgz52QZT3iOWYA1d4YCz3f4zhdYADSSu8FEgq0DOMPdgGgtjjCLlk_3vWkdjP3_hvjFCKwMNA7a2g-kT2Xjgy3UITqPCEUxm0k7-8YfgFaEUBN1HiJlrcqbrOqF5lq6/s320/product5.jpeg" alt="" class="product-img">
+
+<h2 class="product-title">HOODIES</h2>
+<span class="price">$200</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+
+<!-- BOX -8  -->
+ <div class="product-box">
+    <!-- stripe Needs Images that are online -->
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-IwYex-tcbLjFI8j-kDRQxlOydIUs71hDbRaWIc9uIFY0ckgL8iw1NBVLGTyESSjS0yYtGDduidR3pZTG-qjmRskk_NhtqR8iS8azirZiXtbVDC_ShuxrM4UbNt-ftXk_9XOT-BAjyDhirkucemD74-QIryPai2Jz5nBHA_G4xEgJlC2VuLffb3h2whOE/s320/product8.jpeg" alt="" class="product-img">
+
+<h2 class="product-title">SHOES</h2>
+<span class="price">$2400</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+
+</div>
+
+
+
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+
+    <!-- Link to Js / -->
+    <script src="javascript/cart.js"></script>
+    <script src="javascript/order.js"></script>
+</body>
+</html>
